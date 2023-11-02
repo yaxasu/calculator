@@ -11,6 +11,7 @@
     background-color: rgb(195, 194, 194);
     border-radius: 10px;
     margin-top: 80px;
+    flex-direction: column;
 }
 
 #screen{
@@ -19,10 +20,9 @@
     margin: 10px;
     padding: 10px;
     height: 110px;
-    width: 430px;
+    width: 410px;
     display: flex;
     flex-direction: column;
-
 }
 #working{
     height: 70px;
@@ -33,4 +33,34 @@
     text-align: right;
     height: auto;
     width: auto;
+}
+
+.mainButtons{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+
+#clear,#delete{
+    height: 80px;
+    width: 210px;
+    border-radius: 5px;
+}
+
+.numOp{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #divide, #times, #minus, #plus, #equals, #point
+{
+    height: 70px;
+    width: 105px;
+}
+
+.rowOne, .rowTwo, .rowThree, .rowFour{
+    margin-top: 8px;
+    margin-left: 10px;
 }
