@@ -22,4 +22,15 @@
     width: 430px;
     display: flex;
     flex-direction: column;
+
+}
+#working{
+    height: 70px;
+    width: auto;
+}
+#result{
+    font-size: 30px;
+    text-align: right;
+    height: auto;
+    width: auto;
 }
